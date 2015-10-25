@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>strSub</title> 
+	<link rel="stylesheet" type="text/css" href="srtsub.css">
+	<script type="text/javascript" src="srtsub.js"></script> 
+</head>
+<body>  
+	<video id="myVideo"  controls
+	 preload="auto" width="850" height="364">
+	  <source src="video.mp4" type='video/mp4'>  
+	</video>  
+	<script type="text/javascript"> 
+	var configuration = {
+		videoID : 'myVideo',//'myvideo',
+		fontSize : 16, // minimus size.
+		filter : ['Aquarium','fuc* ***','chubaca'], // filter and...
+		replaceF : 'gol', // replace. 
+		subtitles:[
+					{
+						url:'http://www.storiesinflight.com/js_videosub/jellies.srt', 
+						label:'English',
+						default:true
+					},
+					{
+						url:'france.srt', label:'France'
+					}
+				]
+	}
+  	srtSub.config(configuration); 
+	</script> 
+</body>
+</html> 
+ 

@@ -1,0 +1,82 @@
+.srtSubContainer{
+	position:	relative; 
+}
+.srtSubContainer video{ 
+	margin: 0 auto;
+    display: block;
+}
+.contentSubs{ 
+	position : absolute;
+	bottom : 40px;
+	padding : 0 25px 0 25px;
+	text-align : center;
+	background-color : transparent;
+	color : #ffffff;
+	font-family : Helvetica, Arial, sans-serif; 
+	font-weight : bold;
+	text-shadow : #000000 1px 1px 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+	z-index : 2147483647;	
+}
+div.selectorSrtSub{
+	position : absolute;
+	box-sizing: content-box;
+	top : 30px;
+	right: 26px;
+	text-align: right; 
+	color:black;
+	z-index: 2147483647;
+}
+div.selectorSrtSub img{ 
+	height: 30px;
+    background: black;
+    border-radius: 15px;
+    border: 5px solid;
+    opacity: 0.1;
+}
+div.selectorSrtSub img:hover{   
+	cursor: pointer; 
+	opacity: 1;
+}
+
+div.selectorBoxSrtSub {  
+    position: absolute;
+
+    width: 150px;
+	top: 30px;
+    right: 85px;
+    background: rgba(36, 35, 35, 0.78);
+    color: white;
+    /*padding: 7px;*/
+    border-radius: 15px;
+    z-index: 2147483647;  
+	box-shadow: 0px 0px 16px 0px rgba(0,0,0,0.75); 
+}
+div.selectorBoxSrtSub ul{
+	list-style: none;
+	line-height: 35px;
+	padding: 0;  
+ 
+}
+div.selectorBoxSrtSub li{
+	padding: 5px;
+}
+div.selectorBoxSrtSub li:hover{
+	background:rgba(148, 137, 137, 0.68);
+	cursor: pointer; 
+}
+div.selectorBoxSrtSub p:hover{  
+ 
+}
+div.selectorBoxSrtSub li.select{  
+	background: rgba(16, 16, 17, 0.67);
+    border-top: 1px solid rgba(115, 113, 113, 0.58);
+    border-bottom: 1px solid rgba(115, 113, 113, 0.58);
+}
+
+div.contentSubs.srtsub div{
+    padding: 10px;
+    padding-left: 20px;
+}
