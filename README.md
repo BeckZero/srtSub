@@ -1,6 +1,5 @@
 # srtSub: HTML5 Video with single/dual SRT Subtitles.
 
-(Sorry for my bad English).
 
 ## Features ##
   * Single/Dual subtitles.
@@ -13,7 +12,7 @@
 
 ## Examples ##
 
-### simple(without configuration) ###
+### Simple(without configuration) ###
 
 	<!DOCTYPE html>
 	<html>
@@ -32,7 +31,7 @@
 	</body>
 	</html> 
 
-### simple ###
+### Simple ###
  
 	<video id="myVideo"  controls preload="auto" width="850" height="364">
 		<source src="video.mp4" type='video/mp4'>   
